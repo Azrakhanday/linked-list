@@ -54,6 +54,7 @@ int main()
 	int ch,n;
 	while(1)
 	{
+	    system ("cls");
 		printf("\n 1: create ");
 		printf("\n 2: display");
 		printf("\n 3: display Minimum and Maximum");
@@ -69,6 +70,7 @@ int main()
 			      break;
 			 case3:minmax(root);
 			        break;
+			 case4:exit(0);
 		}
 		getch();
 		return 0;
