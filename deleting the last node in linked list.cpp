@@ -1,3 +1,4 @@
+
 //deleting the last node in linked list
 #include <stdio.h>
 #include <stdlib.h>
@@ -72,7 +73,3 @@ int main() {
   PrintList(MyList);
   return 0; 
 }
-
-
-
-
